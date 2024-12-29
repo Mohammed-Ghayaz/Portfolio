@@ -1,0 +1,11 @@
+nav a{
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: gray;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+

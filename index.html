@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mohammed Ghayaz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-200">
+    <aside class="fixed top-0 left-0 h-full bg-gray-800 p-6 w-1/5">
+        <div class="text-center mb-6">
+          <img src="./Profile.png" alt="Profile" class="rounded-full mx-auto px-4 py-4">
+          <h1 class="font-bold text-white mt-4 text-3xl">Z Mohammed Ghayaz</h1>
+          <p class="text-white">Deep Learning & Data Science Enthusiast</p>
+        </div>
+        <nav class="mt-8 space-y-4">
+          <a href="#about" class="text-lg block py-2 px-4 text-center text-gray-400 hover:text-white">About</a>
+          <a href="#skills" class="text-lg block py-2 px-4 text-center text-gray-400 hover:text-white">Skills</a>
+          <a href="#projects" class="text-lg block py-2 px-4 text-center text-gray-400 hover:text-white">Projects</a>
+          <a href="#contact" class="text-lg block py-2 px-4 text-center text-gray-400 hover:text-white">Contact</a>
+        </nav>
+      </aside>
+
+      <div class="ml-64 p-6 space-y-16">
+        <section id="about" class="m-2 p-5 shadow-xl bg-white rounded h-full content-center">
+            <div class="p-8">
+                <h1 class="font-bold font-mono text-3xl">About</h1><br>
+                <p class="text-lg font-sans text-justify">I am Mohammed Ghayaz, a pre-final year BTech student in Artificial Intelligence and Data Science at Sri Venkateswara College of Engineering, Chennai. I have developed projects in AI, Deep Learning, and Data Science, including a GAN-based Sketch2Fashion model and an Alumni Recommender System. With a strong foundation in problem-solving and computer science, I aim to create innovative solutions using emerging technologies. Passionate about data-driven insights and machine learning, I seek to make a meaningful impact through my work.</p>
+                <br><a href="./Deedy_Resume_Reversed.pdf" download><button class="bg-red-600 text-center text-white w-max rounded p-2 text-md">Download Resume</button></a>
+            </div>
+        </section>
+
+        <section id="skills" class="m-2 p-10 shadow-xl bg-white rounded h-full content-center">
+            <h1 class="font-bold font-mono text-3xl">Skills</h1><br>
+            <ul class="text-lg list-disc list-inside">
+                <li>Python Programming</li>
+                <li>SQL</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Bootstrap, TailwindCSS</li>
+                <li>Excel</li>
+                <li>Machine Learning</li>
+                <li>Data Science and Analytics</li>
+                <li>NumPy, Pandas, Matplotlib</li>
+                <li>Natural Language Processing</li>
+                <li>Statistical and Descriptive Analysis</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="m-2 p-10 shadow-xl bg-white rounded h-full content-center">
+            <h1 class="text-3xl font-bold font-mono">Notable Projects</h1><br>
+            <p class="text-md font-semibold">Slide the cards to view projects*</p><br>
+            <div class="flex justify-center items-center h-full">
+                <div class="relative w-3/4 overflow-hidden">
+                <!-- Carousel Container -->
+                <div class="flex overflow-x-scroll snap-x snap-mandatory scrollbar-hide border-2 border-black rounded p-3">
+                    <!-- Slide 1 -->
+                    <div id="slide1" class="flex-shrink-0 w-full snap-center bg-white p-3">
+                        <h1 class="text-xl font-bold">Sketch2Fashion</h1>
+                        <p class="text-md text-justify">This project implements a Cycle-Consistent Generative Adversarial Network (CycleGAN) to transform hand-drawn sketches into realistic clothing visuals. The model is trained to learn the mapping between sketches and corresponding clothing images, enabling designers to visualize clothing concepts directly from sketches.
+                            <br><br><span class="font-semibold">Features</span>
+                            <br><span class="font-semibold">Sketch Transformation:</span> Converts hand-drawn or digital sketches into realistic clothing images.
+                            <br><span class="font-semibold">Bidirectional Translation:</span> Supports sketch-to-visual and visual-to-sketch transformations.
+                            <br><span class="font-semibold">Self-Adaptive Training:</span> Utilizes cyclic consistency loss to maintain transformation integrity in both directions.
+                            <br><span class="font-semibold">Customizable Dataset:</span> Allows users to train the model with their own datasets for more personalized output.
+                        <br><br><a href="https://github.com/Mohammed-Ghayaz/Sketch2Fashion" class="text-md ml-px flex flex-row">View Project <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg></a>
+                        
+                    </div>
+            
+                    <!-- Slide 2 -->
+                    <div id="slide2" class="flex-shrink-0 w-full snap-center bg-white p-3">
+                        <h1 class="text-xl font-bold">IPL 2024 Exploratory Data Analysis</h1>
+                        <p class="text-md text-justify">Exploratory Data Analysis on Real time IPL 2024 data. Cleaned and Preprocessed the data, and performed analysis on the Batting Stats, Bowling Stats etc. And also based on the analysis, I have formed the best XI of the tournament, with visualization of the stats on a Dashboard
+                            <br><br><span class="font-semibold">Features</span></p>
+                            <span class="font-semibold">Data-Driven Insights:</span> Comprehensive analysis using player metrics such as strike rates, batting/bowling averages, and economy rates.
+                            <br><span class="font-semibold">Impact Score Calculation:</span> A balanced metric combining Euclidean and perpendicular distances.
+                            <br><span class="font-semibold">Role-Based Evaluations:</span> Separate models for batters, bowlers, and all-rounders.
+                            <br><span class="font-semibold">Best XI Selection:</span> Identifies the top-performing players for a balanced team.
+                            <br><span class="font-semibold">Retention Prediction:</span> Predicts players likely to be retained for IPL 2025.
+                        <br><br><a href="https://www.youtube.com/watch?v=NMENOh0cPLM" class="text-md ml-px flex flex-row">View Project <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg></a>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div id="slide3" class="flex-shrink-0 w-full snap-center bg-white p-3">
+                        <h1 class="text-xl font-bold">SketchVision</h1>
+                        <p class="text-md text-justify">This project is a web application that transforms images into pencil sketches using OpenCV. Users can upload an image, and the application processes it to produce a pencil sketch effect, which can then be downloaded or shared.
+                            <br><br><span class="font-semibold">Features</span>
+                            </p>
+
+                        <ul class="list-disc list-inside">
+                            <li>Simple and intuitive web interface for uploading images.</li>
+                            <li>Real-time transformation of images into pencil sketches.</li>
+                            <li>Option to download or share the transformed images.</li>
+                            <li>Supports multiple image formats such as PNG, JPG, and JPEG.</li>
+                        </ul>
+                        <br><a href="https://github.com/Mohammed-Ghayaz/Emoji_Prediction" class="text-md ml-px flex flex-row">View Project <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg></a>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div id="slide4" class="flex-shrink-0 w-full snap-center bg-white p-3">
+                        <h1 class="text-xl font-bold">Alumni Recommender System</h1>
+                        <p class="text-md text-justify">This project is a recommender system designed to connect students with alumni of their institution who share similar interests. By analyzing LinkedIn profiles, the system identifies commonalities such as skills, work experience, and interests to facilitate meaningful connections between students and alumni.
+                            <br><br><span class="font-semibold">Features</span></p>
+                            <ul class="list-disc list-inside">
+                            <li>Matches students with alumni based on shared interests, skills, and professional goals.</li>
+                            <li>Utilizes LinkedIn profile data for accurate recommendations.</li>
+                            <li>Enhances networking opportunities and mentorship possibilities.</li>
+                            </ul><br>
+                        <a href="https://github.com/Mohammed-Ghayaz/Recommendation_System" class="text-md ml-px flex flex-row">View Project <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg></a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+
+            <div>
+              <br><br>  <h1 class="text-lg font-semibold"><a href="https://www.linkedin.com/in/mohammed-ghayaz/details/projects/" class="text-blue-500">Click here</a> to view other projects</h1>
+            </div>
+        </section>
+        
+        <section id="contact" class="m-2 p-10 shadow-xl bg-white rounded h-full content-center">
+            <h1 class="text-3xl font-bold font-mono">Contact</h1><br>
+
+            <div class="flex flex-row">
+                <a class="mr-4" href="https://www.linkedin.com/in/mohammed-ghayaz/" style="height: 35px;"><svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" id="linkedin">
+                    <path d="M32.728 38.651H6.531c-3.459 0-6.273-2.808-6.273-6.26V6.26C.258 2.808 3.072 0 6.531 0h26.197C36.186 0 39 2.808 39 6.26v26.132c0 3.452-2.814 6.259-6.272 6.259Zm-19.379-6.698h.008V15.281H8.17v16.672h5.178ZM10.76 13.004a2.998 2.998 0 0 0 3.002-3.002A3.008 3.008 0 0 0 10.76 7a3.003 3.003 0 0 0-3.002 3.002 3.003 3.003 0 0 0 3.002 3.002Zm21.998 18.95v-9.14c0-4.491-.975-7.946-6.215-7.946-2.519 0-4.21 1.38-4.905 2.69h-.07v-2.277h-4.967v16.672h5.178v-8.25c0-2.176.413-4.281 3.11-4.281 2.652 0 2.691 2.488 2.691 4.421v8.11h5.178Z"></path>
+                  </svg></a>
+                <a class="mr-4" href="https://github.com/Mohammed-Ghayaz"><img src="./github.svg" style="height: 40px;"></a>
+                <a class="mr-2" href="mailto:mdghayaz04@gmail.com"><svg style="height: 40px;" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" id="gmail">
+                    <path fill="#ea4435" d="M16.58,19.1068l-12.69-8.0757A3,3,0,0,1,7.1109,5.97l9.31,5.9243L24.78,6.0428A3,3,0,0,1,28.22,10.9579Z"></path>
+                    <path fill="#00ac47" d="M25.5,5.5h4a0,0,0,0,1,0,0v18a3,3,0,0,1-3,3h0a3,3,0,0,1-3-3V7.5a2,2,0,0,1,2-2Z" transform="rotate(180 26.5 16)"></path>
+                    <path fill="#ffba00" d="M29.4562,8.0656c-.0088-.06-.0081-.1213-.0206-.1812-.0192-.0918-.0549-.1766-.0823-.2652a2.9312,2.9312,0,0,0-.0958-.2993c-.02-.0475-.0508-.0892-.0735-.1354A2.9838,2.9838,0,0,0,28.9686,6.8c-.04-.0581-.09-.1076-.1342-.1626a3.0282,3.0282,0,0,0-.2455-.2849c-.0665-.0647-.1423-.1188-.2146-.1771a3.02,3.02,0,0,0-.24-.1857c-.0793-.0518-.1661-.0917-.25-.1359-.0884-.0461-.175-.0963-.267-.1331-.0889-.0358-.1837-.0586-.2766-.0859s-.1853-.06-.2807-.0777a3.0543,3.0543,0,0,0-.357-.036c-.0759-.0053-.1511-.0186-.2273-.018a2.9778,2.9778,0,0,0-.4219.0425c-.0563.0084-.113.0077-.1689.0193a33.211,33.211,0,0,0-.5645.178c-.0515.022-.0966.0547-.1465.0795A2.901,2.901,0,0,0,23.5,8.5v5.762l4.72-3.3043a2.8878,2.8878,0,0,0,1.2359-2.8923Z"></path>
+                    <path fill="#4285f4" d="M5.5,5.5h0a3,3,0,0,1,3,3v18a0,0,0,0,1,0,0h-4a2,2,0,0,1-2-2V8.5a3,3,0,0,1,3-3Z"></path>
+                    <path fill="#c52528" d="M2.5439,8.0656c.0088-.06.0081-.1213.0206-.1812.0192-.0918.0549-.1766.0823-.2652A2.9312,2.9312,0,0,1,2.7426,7.32c.02-.0475.0508-.0892.0736-.1354A2.9719,2.9719,0,0,1,3.0316,6.8c.04-.0581.09-.1076.1342-.1626a3.0272,3.0272,0,0,1,.2454-.2849c.0665-.0647.1423-.1188.2147-.1771a3.0005,3.0005,0,0,1,.24-.1857c.0793-.0518.1661-.0917.25-.1359A2.9747,2.9747,0,0,1,4.3829,5.72c.089-.0358.1838-.0586.2766-.0859s.1853-.06.2807-.0777a3.0565,3.0565,0,0,1,.357-.036c.076-.0053.1511-.0186.2273-.018a2.9763,2.9763,0,0,1,.4219.0425c.0563.0084.113.0077.169.0193a2.9056,2.9056,0,0,1,.286.0888,2.9157,2.9157,0,0,1,.2785.0892c.0514.022.0965.0547.1465.0795a2.9745,2.9745,0,0,1,.3742.21A2.9943,2.9943,0,0,1,8.5,8.5v5.762L3.78,10.9579A2.8891,2.8891,0,0,1,2.5439,8.0656Z"></path>
+                  </svg></a>
+            </div>
+        </section>
+      </div>
+</body>
+</html>
